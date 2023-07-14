@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from './Header';
 
 function Layout({title, keywords, description, children}) {
   return (
@@ -9,6 +10,7 @@ function Layout({title, keywords, description, children}) {
           <meta name='description' content={description}/>
           <link rel="icon" href="https://fav.farm/🔥" />
           </Head>
+          <Header />
         <main className='container mx-auto my-7'>{children}</main>
     </div>
   )
