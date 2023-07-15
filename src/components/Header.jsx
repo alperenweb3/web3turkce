@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function Header() {
+export default function Header() {
   return (
     <header className="bg-gray-300 text-black shadow w-full">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -16,11 +16,10 @@ function Header() {
         </Link>
         <nav className="flex flex-wrap md:w-4/5 items-center justify-end text-base md:ml-auto ">
           <Link className="mx-5 cursor-pointer uppercase hover:text-orange-500" href="/blog">Blog</Link>
-          <Link className="mx-5 cursor-pointer uppercase hover:text-orange-500" href="/hakkimizda">Hakkımızda</Link>
+          <Link className="mx-5 cursor-pointer uppercase hover:text-orange-500" href="/about">Hakkımızda</Link>
         </nav>
       </div>
     </header>
   );
 }
 
-export default Header;

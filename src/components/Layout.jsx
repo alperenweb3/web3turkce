@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from './Header';
 
-function Layout({title, keywords, description, children}) {
+export default function Layout({title, keywords, description, children}) {
   return (
     <div>
         <Head>
@@ -21,5 +21,3 @@ Layout.defaultProps={
   keywords: "web3, web3 kaynaklar, web3 turkce",
   description: "Web3 Türkce Kaynak Sitesi"
 }
-
-export default Layout;
