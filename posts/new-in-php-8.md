@@ -6,6 +6,7 @@ cover_image: '/images/posts/img4.jpg'
 category: 'PHP'
 author: 'Sara Johnson'
 author_image: 'https://randomuser.me/api/portraits/women/12.jpg'
+author_url: 'https://alperen.co'
 ---
 
 <!-- Markdown generator - https://jaspervdj.be/lorem-markdownum/ -->

@@ -6,6 +6,7 @@ cover_image: '/images/posts/img8.jpg'
 category: 'JavaScript'
 author: 'Sam Smith'
 author_image: 'https://randomuser.me/api/portraits/men/18.jpg'
+author_url: 'https://alperen.co'
 ---
 
 <!-- https://jaspervdj.be/lorem-markdownum/ -->
