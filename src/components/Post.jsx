@@ -31,7 +31,7 @@ export default function Post({ post }) {
           className="text-gray-900 hover:text-blue-600"
           href={`/blog/${post.slug}`}
         >
-          Read More
+          Devamını Oku
         </Link>
         <div className="flex items-center">
             <img className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block" src={post.frontmatter.author_image} alt={post.frontmatter.author} />

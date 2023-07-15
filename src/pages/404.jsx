@@ -9,7 +9,7 @@ export default function NotFound() {
             <div className="flex flex-col items-center mt-20">
                 <Image  src="/images/web3_logo_edited.png" width={100} height={100} alt="Web3Turkce Logo"/>
                 <h1 className="text-6xl my-5">Whooops!</h1>
-                <h2 className="text-4xl text-gray-400 mb-5">This page does not exist</h2>
+                <h2 className="text-4xl text-gray-400 mb-5">{`Malesef böyle bir sayfa bulunamadı :(`}</h2>
             </div>
         </Layout>
     </div>
